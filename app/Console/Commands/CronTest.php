@@ -37,6 +37,7 @@ class CronTest extends Command
      */
     public function handle()
     {
+        // sleep(15);
         \Log::info("Cron is working fine!");
      
         /*
